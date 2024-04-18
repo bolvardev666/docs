@@ -1,17 +1,6 @@
-# Welcome to MkDocs
+# 关于本站点
+北信源产品手册V1.0
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 关于国产化产品
+大部分国产化产品其实可以直接使用比如服务端的rpm在通用环境下安装,只要架构是any或者x86_64
