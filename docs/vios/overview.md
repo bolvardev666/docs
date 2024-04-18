@@ -1,9 +1,9 @@
 # 产品概述
 
 ---
-**产品文档**: <a href="https://pan.baidu.com/s/1TjZHJGpQicdgyayjsl1FJg?pwd=6666" target="_blank">百度云盘</a>
+**产品文档**: <a href="https://pan.baidu.com/s/1TjZHJGpQicdgyayjsl1FJg" target="_blank">百度云盘</a>
 
-**安装包**: <a href="链接：https://pan.baidu.com/s/1J8CKqHeOfX2cS2bHjxUP1Q?pwd=6666" target="_blank">百度云盘</a>
+**安装包**: <a href="链接：https://pan.baidu.com/s/1J8CKqHeOfX2cS2bHjxUP1Q" target="_blank">百度云盘</a>
 
 ---
 
