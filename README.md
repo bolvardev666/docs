@@ -6,7 +6,7 @@ project docs
 ```shell
 pip install -r requriment.txt
 or 
-pip install mkdocs gh-deploy
+pip install mkdocs-material
 ```
 ```shell
 mkdocs new .
