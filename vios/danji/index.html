@@ -9,6 +9,10 @@
       
       
       
+        <link rel="prev" href="../card_reader/">
+      
+      
+        <link rel="next" href="../overview/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -16,7 +20,7 @@
     
     
       
-        <title>打刻单机版配置方法 - VRV产品部署与维护</title>
+        <title>7.单机版 - VRV产品部署与维护</title>
       
     
     
@@ -94,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              打刻单机版配置方法
+              7.单机版
             
           </span>
         </div>
@@ -331,17 +335,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -355,7 +361,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             打印刻录
@@ -462,6 +468,151 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../card_reader/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6.刷卡器
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    7.单机版
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    7.单机版
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1sysadm" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.登录sysadm创建组与一个普通用户
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2secadm" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.登录secadm设置用户角色开启用户
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.修改普通用户密码
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.重启
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5sysadm" class="md-nav__link">
+    <span class="md-ellipsis">
+      5.登录sysadm设备管理添加打印机与刻录
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6secadm" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.登录secadm分配设备给普通用户
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.登录普通用户开始使用
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1236,27 +1387,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1sysadmsecadmvsec1234" class="md-nav__link">
+  <a href="#1sysadm" class="md-nav__link">
     <span class="md-ellipsis">
-      1.分别修改sysadm与secadm的密码，默认Vsec1234
+      1.登录sysadm创建组与一个普通用户
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#2sysadm" class="md-nav__link">
+  <a href="#2secadm" class="md-nav__link">
     <span class="md-ellipsis">
-      2.登录sysadm创建组与一个普通用户
+      2.登录secadm设置用户角色开启用户
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3secadm" class="md-nav__link">
+  <a href="#3" class="md-nav__link">
     <span class="md-ellipsis">
-      3.登录secadm设置用户角色开启用户
+      3.修改普通用户密码
     </span>
   </a>
   
@@ -1265,43 +1416,34 @@
         <li class="md-nav__item">
   <a href="#4" class="md-nav__link">
     <span class="md-ellipsis">
-      4.修改普通用户密码
+      4.重启
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#5" class="md-nav__link">
+  <a href="#5sysadm" class="md-nav__link">
     <span class="md-ellipsis">
-      5.重启
+      5.登录sysadm设备管理添加打印机与刻录
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#6sysadm" class="md-nav__link">
+  <a href="#6secadm" class="md-nav__link">
     <span class="md-ellipsis">
-      6.登录sysadm设备管理添加打印机与刻录
+      6.登录secadm分配设备给普通用户
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#7secadm" class="md-nav__link">
+  <a href="#7" class="md-nav__link">
     <span class="md-ellipsis">
-      7.登录secadm分配设备给普通用户
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#8" class="md-nav__link">
-    <span class="md-ellipsis">
-      8.登录普通用户开始使用
+      7.登录普通用户开始使用
     </span>
   </a>
   
@@ -1323,14 +1465,19 @@
 
 
 <h1 id="_1">打刻单机版配置方法</h1>
-<h3 id="1sysadmsecadmvsec1234">1.分别修改sysadm与secadm的密码，默认Vsec1234</h3>
-<h3 id="2sysadm">2.登录sysadm创建组与一个普通用户</h3>
-<h3 id="3secadm">3.登录secadm设置用户角色开启用户</h3>
-<h3 id="4">4.修改普通用户密码</h3>
-<h3 id="5">5.重启</h3>
-<h3 id="6sysadm">6.登录sysadm设备管理添加打印机与刻录</h3>
-<h3 id="7secadm">7.登录secadm分配设备给普通用户</h3>
-<h3 id="8">8.登录普通用户开始使用</h3>
+<blockquote>
+<p>单机的所有操作都在root用户下进行</p>
+</blockquote>
+<h3 id="1sysadm">1.登录sysadm创建组与一个普通用户</h3>
+<h3 id="2secadm">2.登录secadm设置用户角色开启用户</h3>
+<h3 id="3">3.修改普通用户密码</h3>
+<h3 id="4">4.重启</h3>
+<blockquote>
+<p>也可以装好后直接重启</p>
+</blockquote>
+<h3 id="5sysadm">5.登录sysadm设备管理添加打印机与刻录</h3>
+<h3 id="6secadm">6.登录secadm分配设备给普通用户</h3>
+<h3 id="7">7.登录普通用户开始使用</h3>
 
 
 

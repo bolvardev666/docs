@@ -9,6 +9,10 @@
       
       
       
+        <link rel="prev" href="../forgetpwd/">
+      
+      
+        <link rel="next" href="../danji/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -16,7 +20,7 @@
     
     
       
-        <title>刷卡器配置 - VRV产品部署与维护</title>
+        <title>6.刷卡器 - VRV产品部署与维护</title>
       
     
     
@@ -94,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              刷卡器配置
+              6.刷卡器
             
           </span>
         </div>
@@ -331,17 +335,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -355,7 +361,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             打印刻录
@@ -458,6 +464,112 @@
   
   <span class="md-ellipsis">
     5.忘记密码
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    6.刷卡器
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    6.刷卡器
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      刷卡器绑定流程
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="刷卡器绑定流程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flag" class="md-nav__link">
+    <span class="md-ellipsis">
+      flag
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../danji/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7.单机版
   </span>
   
 
@@ -1236,47 +1348,26 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1" class="md-nav__link">
+  <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      1.服务端操作
+      刷卡器绑定流程
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="刷卡器绑定流程">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flag" class="md-nav__link">
+    <span class="md-ellipsis">
+      flag
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#2" class="md-nav__link">
-    <span class="md-ellipsis">
-      2.输出端口操作
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      3.提交端口操作
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      4.刷卡器绑定
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5" class="md-nav__link">
-    <span class="md-ellipsis">
-      5.流程
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -1295,43 +1386,30 @@
                   
 
 
-<h1 id="_1">刷卡器配置</h1>
-<pre><code>整个流程的前提是需要设置好刷卡器，比如完美的就可以使用安装ISO自带的工具设置
-开启账号类型:IC卡号
-update sys_accounttype set state=1 where atypeID=5;
-
-</code></pre>
-<h2 id="1">1.服务端操作</h2>
-<pre><code class="language-mermaid">flowchart TB
-    服务端创建任意账号 --&gt; 服务端开启漫游打印 --&gt; 服务端添加刷卡器-添加时绑定打印机
-</code></pre>
-<h2 id="2">2.输出端口操作</h2>
-<pre><code class="language-mermaid">flowchart TB
-    安装客户端 --&gt; 登录任意账号提交终端信息 --&gt; 
-    登录sysadm开启刷卡刻录 --&gt;
-    退出账号
-</code></pre>
-<h2 id="3">3.提交端口操作</h2>
-<pre><code class="language-mermaid">flowchart TB
-    安装客户端 --&gt; 登录任意账号提交终端设备信息 --&gt; 
-    登录账号完成打印提交流程-打印机选择漫游 --&gt;
-    管理端状态为待输出
-</code></pre>
-<h2 id="4">4.刷卡器绑定</h2>
-<pre><code class="language-mermaid">flowchart TB
-    输出端sysadm开启打印显号 --&gt;
-    退出账号 --&gt;
-    去刷卡 --&gt;
-    输出端客户端账号栏显示卡号 --&gt;
-    管理端添加用户IC卡账号 --&gt;
-    输出端sysadm改回刷卡打印
-</code></pre>
-<h2 id="5">5.流程</h2>
-<pre><code class="language-mermaid">flowchart TB
-    提交端提交漫游任务 --&gt;
-    去刷卡 --&gt;
-    任务输出
-</code></pre>
+<h1 id="_1">刷卡器</h1>
+<blockquote>
+<p>打印刻录系统新版可以在secadm用户给用户添加IC卡账号</p>
+</blockquote>
+<h2 id="_2">刷卡器绑定流程</h2>
+<p>web平台sysadm账号 </p>
+<blockquote>
+<p>在设备管理中添加刷卡器,填写刷卡器地址与目标地址,目标地址是指集中输出的设备地址 \
+并给这个刷卡器设备分配打印机或刻录机设备</p>
+<p>web平台secadm账号
+开启漫游打印或者漫游刻录 \
+给与账号指派IC卡号 \
+添加设备指派,[ 用户&lt;-&gt;刷卡器绑定的设备 ],有版本不添加刷卡看不到任务</p>
+<p>集中输出端
+ - 显号时
+   - &gt; 在客户端登录sysadm账号,开启刷卡显号
+ - 输出时
+   - &gt; 在客户端登录sysadm账号,开启刷卡打印或刷卡刻录</p>
+</blockquote>
+<h3 id="flag">flag</h3>
+<blockquote>
+<p>这套刷卡器系统太过离谱了,能用,也仅仅是能用 \
+如果同时开启了条码,,,那么任务会非常满,且集中输出端就容易卡死</p>
+</blockquote>
 
 
 

@@ -617,6 +617,48 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../card_reader/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    6.刷卡器
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../danji/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    7.单机版
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1847,7 +1889,7 @@
     └── vios-oscar.sql
 
 </code></pre>
-<p>如果使用mariadb或者mysql就查看 mysql/vios-mysql.sql文件</p>
+<p>如果使用mariadb或者mysql就查看 mysql/vios-mysql.sql文件,使用其他数据库就查看对应的文件</p>
 <h2 id="2">2.筛选密码密文字串</h2>
 <p>使用grep 筛选出初始化时sys_user表内容,就可以查看密文</p>
 <pre><code class="language-shell">grep -R &quot;INSERT INTO \`sys_user\`&quot; vios-mysql.sql
