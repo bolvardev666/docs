@@ -36,7 +36,7 @@ cd /opt/vpservice/vios/bin/db   #文件结构
     └── vios-oscar.sql
 
 ```
-如果使用mariadb或者mysql就查看 mysql/vios-mysql.sql文件
+如果使用mariadb或者mysql就查看 mysql/vios-mysql.sql文件,使用其他数据库就查看对应的文件
 ## 2.筛选密码密文字串
 使用grep 筛选出初始化时sys_user表内容,就可以查看密文
 ```shell

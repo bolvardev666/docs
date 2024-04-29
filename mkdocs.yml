@@ -16,6 +16,8 @@ nav:
       - 3.使用与配置: vios/using.md
       - 4.问题处理: vios/question.md
       - 5.忘记密码: vios/forgetpwd.md
+      - 6.刷卡器: vios/card_reader.md
+      - 7.单机版: vios/danji.md
 
 - 终端安全: #null
     - 1.概述: vios/overview.md
